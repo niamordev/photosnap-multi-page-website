@@ -7,13 +7,13 @@ export default function Header() {
       <nav>
         <NavLink to="/photosnap-multi-page-website/">
           <img
-            src="../assets/images/shared/desktop/logo.svg"
+            src="../photosnap-multi-page-website/assets/images/shared/desktop/logo.svg"
             alt=""
             className="logo"
           />
         </NavLink>
         <img
-          src="../assets/images/shared/mobile/menu.svg"
+          src="../photosnap-multi-page-website/assets/images/shared/mobile/menu.svg"
           alt=""
           className="mobile"
         />

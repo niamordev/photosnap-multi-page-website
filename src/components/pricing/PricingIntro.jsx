@@ -5,17 +5,17 @@ export default function PricingIntro() {
     <section className="pricing__intro">
       <img
         className="pricing__intro__img pricing-hero-mobile"
-        src="../../assets/images/pricing/mobile/hero.jpg"
+        src="../../photosnap-multi-page-website/assets/images/pricing/mobile/hero.jpg"
         alt=""
       />
       <img
         className="pricing__intro__img pricing-hero-tablet"
-        src="../../assets/images/pricing/tablet/hero.jpg"
+        src="../../photosnap-multi-page-website/assets/images/pricing/tablet/hero.jpg"
         alt=""
       />
       <img
         className="pricing__intro__img pricing-hero-desktop"
-        src="../../assets/images/pricing/desktop/hero.jpg"
+        src="../../photosnap-multi-page-website/assets/images/pricing/desktop/hero.jpg"
         alt=""
       />
       <div className="pricing__intro__box-text-content">

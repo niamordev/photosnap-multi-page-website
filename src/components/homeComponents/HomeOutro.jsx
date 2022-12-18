@@ -6,7 +6,7 @@ export default function HomeOutro() {
       <div className="box">
         <div className="container-img">
           <img
-            src="../../assets/images/features/desktop/responsive.svg"
+            src="../../photosnap-multi-page-website/assets/images/features/desktop/responsive.svg"
             alt=""
           />
         </div>
@@ -21,7 +21,7 @@ export default function HomeOutro() {
 
       <div className="box">
         <div className="container-img">
-          <img src="../../assets/images/features/desktop/no-limit.svg" alt="" />
+          <img src="../../photosnap-multi-page-website/assets/images/features/desktop/no-limit.svg" alt="" />
         </div>
         <div className="text-content">
           <span className="title">100% Responsive</span>
@@ -34,7 +34,7 @@ export default function HomeOutro() {
 
       <div className="box">
         <div className="container-img">
-          <img src="../../assets/images/features/desktop/embed.svg" alt="" />
+          <img src="../../photosnap-multi-page-website/assets/images/features/desktop/embed.svg" alt="" />
         </div>
         <div className="text-content">
           <span className="title">100% Responsive</span>

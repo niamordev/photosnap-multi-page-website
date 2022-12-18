@@ -26,7 +26,7 @@ export default function StoryCollection( {dataStories}) {
                   <a href="" className="read-story">
                     Read Story
                     <img
-                      src="../../assets/images/shared/desktop/arrow-white.svg"
+                      src="../../photosnap-multi-page-website/assets/images/shared/desktop/arrow-white.svg"
                       alt=""
                     />
                   </a>

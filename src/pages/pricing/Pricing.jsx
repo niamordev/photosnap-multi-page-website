@@ -18,17 +18,17 @@ export default function Pricing() {
           <div className="container-cta">
             <img
               className="img-cta img-cta-mobile"
-              src="../../assets/images/shared/mobile/bg-beta.jpg"
+              src="../../photosnap-multi-page-website/assets/images/shared/mobile/bg-beta.jpg"
               alt=""
             />
             <img
               className="img-cta img-cta-tablet"
-              src="../../assets/images/shared/tablet/bg-beta.jpg"
+              src="../../photosnap-multi-page-website/assets/images/shared/tablet/bg-beta.jpg"
               alt=""
             />
             <img
               className="img-cta img-cta-desktop"
-              src="../../assets/images/shared/desktop/bg-beta.jpg"
+              src="../../photosnap-multi-page-website/assets/images/shared/desktop/bg-beta.jpg"
               alt=""
             />
             <div className="cta-text-content">
@@ -38,7 +38,7 @@ export default function Pricing() {
               </h1>
               <a href="" className="btn__arrow">
                <span className="text-white">Get an invite</span> 
-              <img src="../../assets/images/shared/desktop/arrow-white.svg" alt="" />
+              <img src="../../photosnap-multi-page-website/assets/images/shared/desktop/arrow-white.svg" alt="" />
               </a>
             </div>
           </div>

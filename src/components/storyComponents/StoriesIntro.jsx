@@ -38,7 +38,7 @@ export default function StoriesIntro({ dataStories }) {
                 <a href="" className="btn__arrow">
                   <span className="text-gray">READ STORY</span>
                   <img
-                    src="../../assets/images/shared/desktop/arrow-white.svg"
+                    src="../../photosnap-multi-page-website/assets/images/shared/desktop/arrow-white.svg"
                     alt=""
                   />
                 </a>

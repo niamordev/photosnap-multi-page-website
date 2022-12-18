@@ -5,17 +5,17 @@ export default function FeaturesIntro() {
     <section className="features__intro">
       <img
         className="features__intro__img features-hero-mobile"
-        src="../../assets/images/features/mobile/hero.jpg"
+        src="../../photosnap-multi-page-website/assets/images/features/mobile/hero.jpg"
         alt=""
       />
       <img
         className="features__intro__img features-hero-tablet"
-        src="../../assets/images/features/tablet/hero.jpg"
+        src="../../photosnap-multi-page-website/assets/images/features/tablet/hero.jpg"
         alt=""
       />
       <img
         className="features__intro__img features-hero-desktop"
-        src="../../assets/images/features/desktop/hero.jpg"
+        src="../../photosnap-multi-page-website/assets/images/features/desktop/hero.jpg"
         alt=""
       />
       <div className="features__intro__box-text-content">

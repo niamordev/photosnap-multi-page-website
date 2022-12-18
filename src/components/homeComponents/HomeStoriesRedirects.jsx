@@ -8,12 +8,12 @@ export default function HomeStoriesRedirects() {
       <div className="stories-page-redirects">
         <img
           className="img-stories-redirects mobile"
-          src="../../assets/images/home/mobile/beautiful-stories.jpg"
+          src="../../photosnap-multi-page-website/assets/images/home/mobile/beautiful-stories.jpg"
           alt=""
         />
         <img
           className="img-stories-redirects desktop"
-          src="../../assets/images/home/desktop/beautiful-stories.jpg"
+          src="../../photosnap-multi-page-website/assets/images/home/desktop/beautiful-stories.jpg"
           alt=""
         />
         <div className="text-box">
@@ -26,7 +26,7 @@ export default function HomeStoriesRedirects() {
           <NavLink to="/photosnap-multi-page-website/stories">
           <a href="" className="btn__arrow">
             <span className="text-black">View the Stories</span>
-            <img src="../../assets/images/shared/desktop/arrow.svg" alt="" />
+            <img src="../../photosnap-multi-page-website/assets/images/shared/desktop/arrow.svg" alt="" />
           </a>
           </NavLink>
         </div>
@@ -35,12 +35,12 @@ export default function HomeStoriesRedirects() {
       <div className="stories-page-redirects stories-container2">
         <img
           className="img-stories-redirects mobile"
-          src="../../assets/images/home/mobile/designed-for-everyone.jpg"
+          src="../../photosnap-multi-page-website/assets/images/home/mobile/designed-for-everyone.jpg"
           alt=""
         />
         <img
           className="img-stories-redirects desktop"
-          src="../../assets/images/home/desktop/designed-for-everyone.jpg"
+          src="../../photosnap-multi-page-website/assets/images/home/desktop/designed-for-everyone.jpg"
           alt=""
         />
         <div className="text-box">
@@ -53,7 +53,7 @@ export default function HomeStoriesRedirects() {
           <NavLink to="/photosnap-multi-page-website/stories">
           <a href="" className="btn__arrow">
             <span className="text-black">View the Stories</span>
-            <img src="../../assets/images/shared/desktop/arrow.svg" alt="" />
+            <img src="../../photosnap-multi-page-website/assets/images/shared/desktop/arrow.svg" alt="" />
           </a>
         </NavLink>
         </div>

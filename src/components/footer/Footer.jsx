@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer>
       <div className="brand-logo">
-        <img src="../../assets/images/shared/desktop/logo-white.svg" alt="" />
+        <img src="../../photosnap-multi-page-website/assets/images/shared/desktop/logo-white.svg" alt="" />
       </div>
       <div className="social-networks">
         <i className="fa-brands fa-facebook"></i>
@@ -31,7 +31,7 @@ export default function Footer() {
 
       <a href="" className="get-an-invite btn__arrow">
         <span className="text-white">Get an invite</span>
-        <img src="../../assets/images/shared/desktop/arrow-white.svg" alt="" />
+        <img src="../../photosnap-multi-page-website/assets/images/shared/desktop/arrow-white.svg" alt="" />
       </a>
 
       <span className="copyrights">Copyright 2019. All Rights Reserved.</span>
