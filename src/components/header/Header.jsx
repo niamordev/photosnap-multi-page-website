@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header>
       <nav>
-        <NavLink to="/">
+        <NavLink to="/photosnap-multi-page-website/">
           <img
             src="../assets/images/shared/desktop/logo.svg"
             alt=""
@@ -19,13 +19,13 @@ export default function Header() {
         />
 
         <ul className="nav-big-screen">
-          <NavLink to="/stories">
+          <NavLink to="/photosnap-multi-page-website/stories">
             <li>STORIES</li>
           </NavLink>
-          <NavLink to="/features">
+          <NavLink to="/photosnap-multi-page-website/features">
             <li>FEATURES</li>
           </NavLink>
-          <NavLink to="/pricing">
+          <NavLink to="/photosnap-multi-page-website/pricing">
             <li>PRICING</li>
           </NavLink>
         </ul>

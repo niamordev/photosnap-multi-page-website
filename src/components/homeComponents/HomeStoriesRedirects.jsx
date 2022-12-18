@@ -23,7 +23,7 @@ export default function HomeStoriesRedirects() {
             Easily add photos, text, embed maps and media from other networks.
             Then share your story with everyone.
           </p>
-          <NavLink to="/stories">
+          <NavLink to="/photosnap-multi-page-website/stories">
           <a href="" className="btn__arrow">
             <span className="text-black">View the Stories</span>
             <img src="../../assets/images/shared/desktop/arrow.svg" alt="" />
@@ -50,7 +50,7 @@ export default function HomeStoriesRedirects() {
             audience. Our tool is designed for photographers of all levels,
             brands, businesses you name it.
           </p>
-          <NavLink to="/stories">
+          <NavLink to="/photosnap-multi-page-website/stories">
           <a href="" className="btn__arrow">
             <span className="text-black">View the Stories</span>
             <img src="../../assets/images/shared/desktop/arrow.svg" alt="" />

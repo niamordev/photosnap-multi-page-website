@@ -19,13 +19,13 @@ function App() {
     <BrowserRouter>
       <ScrollToTop />
       <Routes>
-        <Route path="/" element={<Home dataStories={dataStories} />} />
+        <Route path="/photosnap-multi-page-website/" element={<Home dataStories={dataStories} />} />
         <Route
-          path="/stories"
+          path="/photosnap-multi-page-website/stories"
           element={<Stories dataStories={dataStories} />}
         />
-        <Route path="/features" element={<Features />} />
-        <Route path="/pricing" element={<Pricing />} />
+        <Route path="/photosnap-multi-page-website/features" element={<Features />} />
+        <Route path="/photosnap-multi-page-website/pricing" element={<Pricing />} />
       </Routes>
     </BrowserRouter>
   );

@@ -15,16 +15,16 @@ export default function Footer() {
         <i className="fa-brands fa-instagram"></i>
       </div>
       <ul>
-        <NavLink to="/">
+        <NavLink to="/photosnap-multi-page-website/">
           <li>HOME</li>
         </NavLink>
-        <NavLink to="/stories">
+        <NavLink to="/photosnap-multi-page-website/stories">
           <li>STORIES</li>
         </NavLink>
-        <NavLink to="/features">
+        <NavLink to="/photosnap-multi-page-website/features">
           <li>FEATURES</li>
         </NavLink>
-        <NavLink to="/pricing">
+        <NavLink to="/photosnap-multi-page-website/pricing">
           <li>PRICING</li>
         </NavLink>
       </ul>

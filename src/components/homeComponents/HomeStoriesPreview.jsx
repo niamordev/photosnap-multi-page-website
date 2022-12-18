@@ -23,7 +23,7 @@ export default function HomeStoriesPreview({ dataStories }) {
                 <span className="author">by {story.author}</span>
                 <hr />
                 <div className="link">
-                  <NavLink to="/stories">
+                  <NavLink to="/photosnap-multi-page-website/stories">
                     <a href="" className="read-story">
                       Read Story
                       <img
