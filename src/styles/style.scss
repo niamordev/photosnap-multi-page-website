@@ -1,0 +1,21 @@
+@import "./global";
+
+// template
+@import "../components/header/header";
+@import "../components/footer/footer";
+
+//home
+@import "./homePage/home-global";
+
+// stories
+@import "./storiesPage/stories-global";
+
+// features
+@import "./featuresPage/features-global";
+
+// pricing
+@import "./pricingPage/pricing-global";
+
+// components
+@import "./components/btn-arrow";
+@import './components/typography'

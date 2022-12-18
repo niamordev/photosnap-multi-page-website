@@ -1,0 +1,16 @@
+#stories {
+  .desktop {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  #stories {
+    .mobile {
+      display: none;
+    }
+    .desktop {
+      display: block;
+    }
+  }
+}

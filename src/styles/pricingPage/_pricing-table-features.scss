@@ -1,0 +1,143 @@
+.pricing__table__container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 60px 0;
+
+  .average-screen {
+    display: none;
+  }
+
+  .pricing__table {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .table__header {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.752);
+    width: 100%;
+    padding: 15px 0;
+  }
+  .container__element {
+    border-bottom: 1px solid $lightGray;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .list-feature {
+    display: flex;
+    gap: 50px;
+    width: 80%;
+    justify-content: space-between;
+
+    li {
+      position: relative;
+      width: 40px;
+      height: 40px;
+    }
+  }
+  .checked {
+    background: url(../../../assets/images/pricing/desktop/check.svg) no-repeat;
+    background-position: 50% 50%;
+  }
+
+  .basic::after {
+    content: "BASIC";
+    position: absolute;
+    top: -24px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .pro::after {
+    content: "PRO";
+    position: absolute;
+    top: -24px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .business::after {
+    content: "BUSINESS";
+    position: absolute;
+    top: -24px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgba(0, 0, 0, 0.6);
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .table__header {
+    display: flex;
+    justify-content: space-between;
+
+    .header-title {
+      width: 40%;
+    }
+
+    .header-list {
+      display: flex;
+      width: 60%;
+
+      li {
+        width: 33.33%;
+        text-align: center;
+      }
+    }
+  }
+
+  .average-screen {
+    display: block !important;
+  }
+
+  .container__element {
+    flex-direction: row !important;
+    gap: 0 !important;
+
+    .name-item {
+      width: 40%;
+    }
+
+    .list-feature {
+      width: 60%;
+
+      li {
+        width: 33.33%;
+      }
+    }
+  }
+  .basic::after {
+    content: "" !important;
+    position: absolute;
+    top: -24px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .pro::after {
+    content: "" !important;
+    position: absolute;
+    top: -24px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .business::after {
+    content: "" !important;
+    position: absolute;
+    top: -24px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgba(0, 0, 0, 0.6);
+  }
+}
