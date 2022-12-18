@@ -565,9 +565,11 @@ footer .social-networks .fa-brands {
 .stories__collection .container-preview {
   position: relative;
   width: 100%;
-  max-height: 350px;
   overflow: hidden;
   transition: 0.5s;
+}
+.stories__collection .container-preview .desktop {
+  display: none;
 }
 .stories__collection .container-preview .small-text {
   font-weight: 300;
@@ -623,7 +625,7 @@ footer .social-networks .fa-brands {
   width: 60px;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 450px) {
   .stories__collection {
     grid-template-columns: 1fr 1fr;
   }
@@ -631,6 +633,12 @@ footer .social-networks .fa-brands {
 @media screen and (min-width: 900px) {
   .stories__collection {
     grid-template-columns: repeat(4, 1fr);
+  }
+  .stories__collection .desktop {
+    display: block !important;
+  }
+  .stories__collection .mobile {
+    display: none;
   }
 }
 .features__all-features {
