@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 
 export default function Header() {
@@ -6,8 +6,13 @@ export default function Header() {
 
   const handleNavMobile = () => {
     setShowNavMobile(!showNavMobile);
-    document.querySelector('#html').classList.toggle('overflow__hidden')
   };
+
+  useEffect(() => {
+    if (showNavMobile)
+      document.querySelector("#html").classList.add("overflow__hidden");
+    else document.querySelector("#html").classList.remove("overflow__hidden");
+  }, [showNavMobile]);
   return (
     <header>
       <nav>
@@ -18,12 +23,25 @@ export default function Header() {
             className="logo"
           />
         </NavLink>
-        <img
-          src="../photosnap-multi-page-website/assets/images/shared/mobile/menu.svg"
-          alt=""
+        <div
           onClick={() => handleNavMobile()}
-          className="mobile"
-        />
+          className="btn_nav_mobile mobile"
+        >
+          {showNavMobile ? (
+            <img
+              src="../photosnap-multi-page-website/assets/images/shared/mobile/close.svg"
+              alt=""
+              className="mobile"
+            />
+          ) : (
+            <img
+              src="../photosnap-multi-page-website/assets/images/shared/mobile/menu.svg"
+              alt=""
+              className="mobile "
+            />
+          )}
+        </div>
+
         {showNavMobile ? <div className="overlay"></div> : null}
         {showNavMobile ? (
           <div className="navbar__mobile__menu">
