@@ -92,6 +92,13 @@ input:checked + .slider:before {
     button {
       background-color: $pureBlack;
       color: $pureWhite;
+      transition: 0.3s;
+
+      &:hover {
+        background: transparent;
+        outline: 2px solid $pureBlack;
+        color: $pureBlack;
+      }
     }
   }
 
@@ -111,6 +118,13 @@ input:checked + .slider:before {
     button {
       background-color: $pureWhite;
       color: $pureBlack;
+      transition: 0.3s;
+
+      &:hover {
+        background: transparent;
+        outline: 2px solid $pureWhite;
+        color: $pureWhite;
+      }
     }
   }
 
@@ -151,8 +165,8 @@ input:checked + .slider:before {
 @media screen and (min-width: 600px) {
   .card-price {
     display: grid !important;
-    grid-template-columns: repeat(3,auto);
-    grid-template-rows: repeat(3,auto);
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 
@@ -176,29 +190,29 @@ input:checked + .slider:before {
 }
 
 @media screen and (min-width: 900px) {
-    .pricing__subscriptions__price{
-        gap: 80px;
-    }
+  .pricing__subscriptions__price {
+    gap: 80px;
+  }
   .subscriptions-choice {
     flex-direction: row !important;
     gap: 20px !important;
 
     .card-price {
-        display: flex !important;
+      display: flex !important;
     }
 
-    .description-offer{
-        text-align: center;
+    .description-offer {
+      text-align: center;
     }
 
-    .price-and-time{
-        align-items: center !important;
-        margin: auto;
+    .price-and-time {
+      align-items: center !important;
+      margin: auto;
     }
 
-    .best-offer{
-        margin: -30px 0;
-        padding: 79px 30px;
+    .best-offer {
+      margin: -30px 0;
+      padding: 79px 30px;
     }
   }
 }

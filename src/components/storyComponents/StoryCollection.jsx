@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function StoryCollection( {dataStories}) {
+export default function StoryCollection({ dataStories }) {
   return (
     <section className="stories__collection">
       {dataStories.map((story) => {
@@ -23,13 +23,13 @@ export default function StoryCollection( {dataStories}) {
                 <span className="author small-text">by {story.author}</span>
                 <hr />
                 <div className="link">
-                  <a href="" className="read-story">
+                  <div className=" read-story">
                     Read Story
                     <img
                       src="../../photosnap-multi-page-website/assets/images/shared/desktop/arrow-white.svg"
                       alt=""
                     />
-                  </a>
+                  </div>
                 </div>
               </div>
             </div>

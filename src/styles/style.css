@@ -683,7 +683,13 @@ footer .social-networks .fa-brands {
   margin: 20px 0;
   width: 100%;
 }
-.stories__collection .text-preview a {
+.stories__collection .text-preview .read-story {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.stories__collection .text-preview .link {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -691,7 +697,7 @@ footer .social-networks .fa-brands {
   font-size: 0.8rem;
   letter-spacing: 2px;
 }
-.stories__collection .text-preview a img {
+.stories__collection .text-preview .link img {
   width: 60px;
 }
 
@@ -1013,6 +1019,12 @@ input:checked + .slider:before {
 .pricing__subscriptions__price .standard-offer button {
   background-color: hsl(0deg, 0%, 0%);
   color: hsl(0deg, 0%, 100%);
+  transition: 0.3s;
+}
+.pricing__subscriptions__price .standard-offer button:hover {
+  background: transparent;
+  outline: 2px solid hsl(0deg, 0%, 0%);
+  color: hsl(0deg, 0%, 0%);
 }
 .pricing__subscriptions__price .best-offer {
   background-color: hsl(0deg, 0%, 0%);
@@ -1030,6 +1042,12 @@ input:checked + .slider:before {
 .pricing__subscriptions__price .best-offer button {
   background-color: hsl(0deg, 0%, 100%);
   color: hsl(0deg, 0%, 0%);
+  transition: 0.3s;
+}
+.pricing__subscriptions__price .best-offer button:hover {
+  background: transparent;
+  outline: 2px solid hsl(0deg, 0%, 100%);
+  color: hsl(0deg, 0%, 100%);
 }
 .pricing__subscriptions__price .card-price {
   margin: auto;
